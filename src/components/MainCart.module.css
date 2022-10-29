@@ -1,0 +1,217 @@
+.cart_div {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  height: auto;
+  /* justify-content: flex-start; */
+}
+
+.column_one {
+  width: 507px;
+  height: auto;
+}
+
+.prdppic_size {
+  height: 200px;
+  margin-right: 30px;
+}
+
+.column_one .subcolumn_one:first-child {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(219, 219, 219, 0.77);
+}
+
+.column_one .subcolumn_one:nth-child(2) {
+  margin-top: 20px;
+}
+
+.subcolumn_one {
+  display: flex;
+}
+
+.style_prd_name {
+  margin: 10px 0 0 0;
+
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.style_floral_text {
+  font-weight: 300;
+  margin: 10px 0 20px 0;
+}
+
+.subcolumn_one_prices {
+  display: flex;
+  gap: 20px;
+}
+
+.style_price_one {
+  text-decoration: line-through;
+  color: #818181;
+}
+
+.style_price_one,
+.style_price_two {
+  margin: 0;
+}
+
+.style_price_two {
+  color: red;
+}
+
+.style_sign {
+  background: #ffffff;
+  box-shadow: 0px 3.41229px 3.41229px rgba(0, 0, 0, 0.1);
+  border-radius: 8.53073px;
+  height: 23px;
+  width: 29px !important;
+  margin: 0 8px 0 8px;
+}
+
+.column_two {
+  width: 450px;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 5px 5px 20px 4px rgba(204, 204, 204, 0.15);
+}
+
+.free,
+.dhl {
+  display: flex;
+  padding: 0;
+  width: 85%;
+  gap: 10px;
+}
+
+.free p:nth-child(3) {
+  font-weight: 200;
+}
+
+.dhl p:nth-child(4) {
+  font-weight: 200;
+}
+
+/* .eclipse {
+  background: url("../Assets//icons/cart_pics/ellipse.svg");
+  max-width: 50%;
+  width: 45px;
+  height: auto;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+} */
+
+/* .eclipsetwo {
+  display: flex;
+  text-align: center;
+  position: absolute;
+  left: 13px;
+  top: 16px;
+} */
+
+.eclipseone {
+  position: relative;
+
+}
+
+.eclipsetwo {
+  position: absolute;
+  top: 179.5px;
+  left: 599px;
+}
+
+.column_two {
+  /* width: 85%;  */
+}
+
+.delivery {
+  width: 85%;
+  margin: auto;
+}
+
+.card_details {
+  display: flex;
+  flex-direction: column;
+  /* background: red; */
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  border-top: 1px solid #dbdbdbc4;
+  width: 85%;
+
+}
+
+.card_types {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: #ffffff;
+  border: 0.5px solid #e5e5e5;
+  border-radius: 21px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.card_number {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 9px;
+  margin-bottom: 15px;
+}
+
+.card_date_cvv {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.card_date,
+.card_cvv {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 9px;
+}
+
+.card_pay {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 9px;
+  background: red;
+}
+
+.discount {
+  /* font-style: monspace; */
+  margin: 13px 0 23px 0;
+  color: red;
+}
+
+.style_pay {
+  color: white;
+  margin: auto;
+  font-weight: 500px;
+}
+
+.style_month_cvv {
+  color: #8692a6;
+  padding-left: 15px;
+}
+
+.cart_total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
