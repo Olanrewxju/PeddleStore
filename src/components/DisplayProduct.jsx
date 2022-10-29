@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import classes from './DisplayProduct.module.css'
 import Fav from '../Assets/icons/fav_icon.svg'
@@ -7,10 +8,13 @@ import prdPic2 from '../Assets/icons/displayproduct_icons/prdPic2.svg'
 import prdPic3 from '../Assets/icons/displayproduct_icons/prdPic3.svg'
 import prdPic4 from '../Assets/icons/displayproduct_icons/prdPic4.svg'
 import discount from '../Assets/icons/displayproduct_icons/discount.svg'
-// import Button from './Button'
 import heart from '../Assets/icons/cart_pics/heart.svg'
+import { useNavigate } from "react-router-dom"
 
 function DisplayProduct() {
+
+    let navigate = useNavigate()
+
   return (
     <div className={classes.product_and_details}>
         <div className={classes.product_picture}>
@@ -40,7 +44,7 @@ function DisplayProduct() {
                     <option value="">Select Size</option>
                 </select>
                 <div className={classes.flex_buttons}>
-                    <div className={classes.button_design2}>
+                    <div className={classes.button_design2} onClick= {() => {navigate("/cart")}}>
                         ADD TO CART
                     </div>
                     <div  className={classes.button_design3}>
