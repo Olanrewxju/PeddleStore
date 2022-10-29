@@ -16,6 +16,10 @@ function Home() {
         <div style={myStyle}>
           <DisplayProduct/>
           <DescriptionReview/>
+          <p style={{
+            fontWeight: 'bold',
+            fontSize: '20px',
+          }}>Related Products</p>
           <RelatedProductList />
         </div>
         <Footer />

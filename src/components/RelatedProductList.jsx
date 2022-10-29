@@ -27,7 +27,9 @@ function RelatedProductList() {
         id: 3,
         name: 'Coco Chanel',
         image: cocoChanel,
-        price: 'N51,170.00',
+        // discountedPrice: 'N1,400.00',
+       price: 'N51,170.00',
+       badge: 'Old',
       },
       {
         id: 4,
